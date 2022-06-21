@@ -10,18 +10,66 @@
 }
 
 .header {
+  position: relative;
+  display: flex;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
+  background-color: #f2f2f2;
+}
+.logo{
+  width: 228px;
+  height: 32px;
+}
+.logo_place_header{
+  position:absolute;
+  top: 30px;
+  left: 64px;
 }
 
+.header__title{
+  position: relative;
+  width: 730px;
+  display:  flex;
+  align-items: center;
+  left: 64px;
+  font-size: 102px;
+  line-height: 96px;
+  font-weight: 700;
+  margin: 0px 0px 0px 0px; 
+}
+
+.header__subtitle{
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0px 0px 0px 0px;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  width: 388px;
+}
+.header__link{
+  text-decoration: none;
+  color: #2f80ed;
+}
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
+  position: absolute;
+  top: 64px;
+  right: 0;
+  background-color:#2f80ed ;
   height: 568px;
   width: 568px;
 }
-
+.header__main-illustration{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 765px;
+  height: 608px;
+}
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
