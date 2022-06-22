@@ -77,3 +77,53 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
+
+
+/* description */
+
+.description {
+  display: flex;
+  justify-content:  center;
+}
+.two-columns {
+  /* position: absolute; */
+  min-width: 784px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+.two-colums_margins{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.two-columns__brief {
+  margin: 0px 0px 0px 0px;
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+
+}
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns-paragraph {
+  margin: 0px 0px 0px 0px; 
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+}
+.two-coluns__span-accent {
+  font-weight: bold;
+
+}
+.two-columns-paragraph_span{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
